@@ -1,7 +1,7 @@
-// Copyright (c) 2020 Mr. Coxall All rights reserved
+// Copyright (c) 2025 Adrina. peighambarzadeh All rights reserved
 //
-// Created by: Mr. Coxall
-// Created on: Sep 2020
+// Created by: Adrina. peighambarzadeh
+// Created on: mar 2025
 // This file contains the JS functions for index.html
 
 /**
@@ -9,9 +9,9 @@
  */
 function enterClicked() {
   // input
-  const firstName = document.getElementById("first-name").value
-  const userAge = parseInt(document.getElementById("age-entered").value)
+  const a = document.getElementById("a").value
+  const b = parseInt(document.getElementById("b").value)
   // output
   document.getElementById("user-info").innerHTML =
-    "Your info is: " + firstName + ", " + userAge + "."
+    "The answer is: " + a + ", " + userAge + "."
 }
