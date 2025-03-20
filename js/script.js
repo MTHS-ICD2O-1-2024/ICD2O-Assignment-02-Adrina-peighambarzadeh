@@ -9,9 +9,14 @@
  */
 function enterClicked() {
   // input
-  const a = document.getElementById("a").value
-  const b = parseInt(document.getElementById("b").value)
+  const a = parseFloat(document.getElementById("a").value)
+  const b = parseFloat(document.getElementById("b").value)
+
+   // process
+  const c = Math.sqrt(a * a + b * b);
+  const perimeterOfTriangle = ( a + b + c);
+
   // output
-  document.getElementById("user-info").innerHTML =
-    "The answer is: " + a + ", " + userAge + "."
+  document.getElementById("perimeter-of-right-triangle").innerHTML =
+    "The answer is: " + perimeterOfTriangle + " cm"
 }
