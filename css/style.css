@@ -1,5 +1,5 @@
-/* Created by: Mr. Coxall
-* Created on: Sep 2020
+/* Created by: Adrina. peighambarzadeh
+* Created on: mar 2025
 * This file contains the CSS for index.html
 */
 
@@ -15,17 +15,17 @@
 }
 
 .mdl-textfield__error {
-  color: lightgreen;
+  color: rgb(24, 32, 24);
 }
 
 .page-content {
-  color: white;
+  color: rgb(28 22 22);
   font-family: Helvetica, Arial, sans-serif;
   font-size: 1.25rem;
 }
 
 .page-content-answer {
-  color: rgb(0 0 0);
+  color: #000000;
   font-family: Helvetica, Arial, sans-serif;
   font-size: 1.25rem;
 }
@@ -37,5 +37,5 @@ img {
 }
 
 body {
-  background-color: cornflowerblue;
+  background-color: rgb(167, 243, 192);
 }
